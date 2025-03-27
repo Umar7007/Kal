@@ -1,0 +1,114 @@
+/* Global styles */
+body {
+    background-color: #0f0f1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #bfa2ff;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2a2a3e;
+    border-radius: 6px;
+    min-width: 120px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.highlighted {
+    border: 2px solid #7b61ff;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1a1a2e;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
